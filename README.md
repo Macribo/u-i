@@ -1,3 +1,7 @@
+# u-i
+
+Trying out the Farhad Ghayour U&amp;I approach to UI. Very General components that can be used across applications. General makes Scalable.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
