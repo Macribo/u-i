@@ -2,6 +2,7 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 // local dependencies
+import TodosList from '../TodosList/TodosList';
 import './App.css';
 class App extends Component {
   constructor(...args) {
@@ -30,7 +31,7 @@ class App extends Component {
   render() {
     const { todos } = this.state;
     return (
-      <ul>
+      <TodosList>
         {_.map(todos, (todo, id) => (
           <li
             key={id}
@@ -40,7 +41,7 @@ class App extends Component {
             {todo.description}
           </li>
         ))}
-      </ul>
+      </TodosList>
     );
   }
 }
